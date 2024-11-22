@@ -1,0 +1,64 @@
+.header {
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoHeader {
+//    border: solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45vh;
+
+    h1 {
+        font-size: 20px;
+        color: #FFF;
+    }
+}
+
+.navHeader {
+//    border: solid green;
+    width: 60%;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        
+
+        .link {
+            color: #FFF;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+    }
+}
+
+.barraDeBusca {
+    border: solid #FFF;
+    width: 30%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 5%;
+    input {
+        background-color: transparent;
+        border: none;
+        width: 80%;
+        &::placeholder{
+            color: #FFF;
+            font-size: 15px;
+        }
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+}
