@@ -1,4 +1,26 @@
-.footer {
+.contatosFooter {
     background-color: #005695;
     height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+
+    nav {
+        border: solid 1px #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20%;
+    }
+}
+
+
+.copyright {
+    background-color: #232020;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
