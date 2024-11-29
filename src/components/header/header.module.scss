@@ -7,7 +7,6 @@
 }
 
 .logoHeader {
-//    border: solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,10 +19,9 @@
         font-size: 25px;
         color: #FFF;
     }
-}n
+}
 
 .navHeader {
-//    border: solid green;
     width: 30%;
 
     ul {
@@ -31,15 +29,13 @@
         justify-content: space-around;
         align-items: center;
         list-style: none;
-        
-
-        .link {
-            color: #FFF;
-            text-decoration: none;
-            font-size: 20px;
-
-        }
     }
+
+    .link {
+        color: #FFF;
+        text-decoration: none;
+        font-size: 20px;
+        }
 }
 
 .barraDeBusca {
@@ -65,4 +61,25 @@
         background-color: transparent;
         border: none;
     }
+}
+
+@media (max-width: 768px) {
+   .header {
+       flex-direction: column;
+       justify-content: space-evenly;
+   }
+   .logoHeader{
+        width: 90%;
+        img {
+            height: 20%;
+        }
+   }
+
+   .navHeader {
+        width: 90%;
+   }
+
+   .barraDeBusca {
+        display: none;
+   }
 }
