@@ -19,7 +19,7 @@ export default function Footer() {
                 </nav>
             </section>
             <section className={s.copyright}>
-                <p>© 2021 - Todos os direitos reservados</p>
+                <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
             </section>
         </footer>
     )

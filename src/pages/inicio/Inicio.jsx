@@ -8,7 +8,7 @@ export const Inicio = () => {
     return (
         <main>
             <section className={s.primeiraSessaoInicio}>
-                <h2>Venha fazer parte da maior rede de doação</h2>
+                <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
             </section>
             <section className={s.porqueDoarSection}>
                 <h2>Por que devo doar ?</h2>
