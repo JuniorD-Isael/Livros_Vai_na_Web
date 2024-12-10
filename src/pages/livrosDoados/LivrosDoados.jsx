@@ -8,7 +8,7 @@ export const LivrosDoados = () => {
             <section className={s.containerCards}>
                 <section>
                     <div>
-                        <img src={livroProtagonista} alt="" />
+                        <img src={livroProtagonista} alt="Imagem da capa do livro O Protagonista" />
                         <h3>O protagonista</h3>
                         <p>Susanne Andrade</p>
                         <p>Ficção</p>

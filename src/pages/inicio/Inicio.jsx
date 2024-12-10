@@ -15,22 +15,22 @@ export const Inicio = () => {
             </section>
             <div className={s.containerCards}>
                 <section>
-                    <img src={img1} alt="" />
+                    <img src={img1} alt="Imagem representando uma comunidade" />
                     <p> Oferece livros a quem não tem acesso,
                         ajudando a reduzir a exclusão social.</p>
                 </section>
                 <section>
-                    <img src={img2} alt="" />
+                    <img src={img2} alt="Um desenho de uma pessoa lendo um livro" />
                     <p>Estimula o hábito da leitura
                         e o aprendizado contínuo.</p>
                 </section>
                 <section>
-                    <img src={img3} alt="" />
+                    <img src={img3} alt="Uma imagem de um grupo de pessoas lutando pela educação e conhecimento" />
                     <p>Fornece conhecimento e inspiração,
                         permitindo que indivíduos transformem suas vidas.</p>
                 </section>
                 <section>
-                    <img src={img4} alt="" />
+                    <img src={img4} alt="Um desenho de uma balança" />
                     <p>Garante que todos, independentemente de sua condição,
                         tenham oportunidades de aprendizado.</p>
                 </section>

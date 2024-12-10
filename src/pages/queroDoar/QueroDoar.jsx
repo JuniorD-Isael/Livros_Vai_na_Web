@@ -7,7 +7,7 @@ export const QueroDoar = () => {
             <p>Por favor preencha o formulário abaixo com as suas informações.</p>
             <form action="">
                 <div>
-                    <img src={logoForm} alt="" />
+                    <img src={logoForm} alt="Um logo de um livro azul" />
                     <h2>Informações do Livro</h2>
                 </div>
                 <input type="text" id='' placeholder='Titulo'/>
