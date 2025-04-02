@@ -16,7 +16,7 @@ export default function Header() {
                 </section>
                 <nav className={s.navHeader}>
                     <ul>
-                        <li><Link className={s.link} to={"/"}>Inico</Link></li>
+                        <li><Link className={s.link} to={"/"}>Inicio</Link></li>
                         <li><Link className={s.link} to={"/livros-doados"}>Livros Doados</Link></li>
                         <li><Link className={s.link} to={"/quero-doar"}>Quero doar</Link></li>
                     </ul>
